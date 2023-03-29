@@ -26,5 +26,4 @@ def post_data(employee: Employee):
 
 
 if __name__ == "__main__":
-    print('main.py')
     uvicorn.run('main:app', port=8000, reload=False)
